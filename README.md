@@ -3,3 +3,6 @@
 
 ## Adjustable Carriages
  Optional physically adjustable carriages that supports CW2 and Stealtherburner compatible hardware.
+
+## Dragon Burner Cowls
+ Remix of [chirpy2605 Dragon Burner](https://github.com/chirpy2605/voron/tree/main/V0/Dragon_Burner) tool head to have identifiers on the front face.
