@@ -16,7 +16,7 @@
  Macros automatically save the new offsets so they will be kept after Klipper restarts.
 
 ## Primary, Copy, and Mirror modes fully supported
-## Support for Inductive, Klicky, and Double Tap bed probing.
+## Support for Inductive, Klicky, and Double Tap bed probing with T0
 ## Support for individual tool head LED activation / colors / effects.
 
 All config files are fully commented and helps walk you through what needs changed and what does not need changed. If you set your board pins, end stops and probe properly. The macros just work.
