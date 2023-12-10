@@ -21,6 +21,10 @@
 
 All config files are fully commented and helps walk you through what needs changed and what does not need changed. If you set your board pins, end stops and probe properly. The macros just work.
 
+## Update for December 9, 2023:
+Bugfix - preferred_tool_change was not loaded at klipper startup, corrected this.<br>
+Feature - added a macro to view the current offsets for T1, it will print them to the console.
+
 ## Update for December 4, 2023:
 Offsets save and load automatically to idex_variables.cfg<br>
 Removed and re-organized variables from IDEX_mode.cfg<br>
