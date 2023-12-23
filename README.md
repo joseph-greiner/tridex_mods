@@ -5,7 +5,7 @@
  Optional physically adjustable carriages that supports CW2 and Stealtherburner compatible hardware.
 
 ## Docs
- frame_and_rails_calc.ods: An easier to understand Tridex frame, rails, and belt calculator. Includes Misumi order numbers for extrusions.
+ frame_and_rails_calc.ods: An easier to understand Tridex frame, rails, and belt calculator. Includes Misumi order numbers for extrusions.<br>
  parametric_panels.FCStd: Parametric FreeCAD document that scales the panels for selected bed and parking sizes. Export the sketches as DXF and send off to your preferred seller.
 
 ## Dragon Burner Cowls
@@ -15,7 +15,7 @@
  Addition of Revo nozzle holders and USB access to the front skirt.
 
 ## Printer configuration
- Full set of Klipper IDEX macros to enable full use of your printer with minimal configuration on your part. Works best with my Prusa Slicer configuration 
+ Full set of Klipper IDEX macros to enable full use of your printer with minimal configuration on your part. Works best with my Prusa Slicer configuration. 
 
 ## Slicer Configuration
  This is my current Prusa Slicer configuration, including any custom gcode that helps the macros in the printer configuration work.
