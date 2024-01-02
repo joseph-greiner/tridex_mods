@@ -21,6 +21,9 @@
 
 All config files are fully commented and helps walk you through what needs changed and what does not need changed. If you set your board pins, end stops and probe properly. The macros just work.
 
+## Update for January 1, 2024:
+Bugfix - corrected T1 offset adjustment macros. fixed z offset compounding error. Offsets now correctly update when T1 is active.
+
 ## Update for December 9, 2023:
 Bugfix - preferred_tool_change was not loaded at klipper startup, corrected this.<br>
 Feature - added a macro to view the current offsets for T1, it will print them to the console.
