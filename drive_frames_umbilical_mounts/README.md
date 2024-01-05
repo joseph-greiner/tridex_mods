@@ -7,4 +7,4 @@
 
  Getting the inserts lined up did not work well for me when exporting raw STL files, so I lined them up in Prusa Slicer and saved the projects as .3mf files for ease of use.<p>
 
-<img width=350 src="https://github.com/joseph-greiner/tridex_mods/blob/main/drive_frame_umbilical_mounts/images/drive_frame_umbilical.png">
+<img width=1000 src="https://github.com/joseph-greiner/tridex_mods/blob/main/drive_frames_umbilical_mounts/images/drive_frame_umbilical.png">
