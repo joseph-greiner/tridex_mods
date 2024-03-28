@@ -25,9 +25,26 @@ Macros automatically save the new offsets so they will be kept after Klipper res
 
 ## Support for individual tool head LED activation / colors / effects.
 
-## Filament runout sensor support
+## Filament runout and rollover support
 
 All config files are fully commented and helps walk you through what needs changed and what does not need changed. If you set your board pins, end stops and probe properly. The macros just work.
+
+# Update for March 27, 2024:
+
+Improved comments and examples throughout all macro files. <br>
+Moved filament sensor definitions and macros to filament_macros.cfg. Makes them more modular and easy to use if desired.<br>
+Added places in the print_start for Stealthburner macro calls.<br>
+Added support for M601 - Pause at layer from the slicer.<br>
+Added some support for M600 with 2 modes:
+<ul>
+  <li>Default behavior should be similar to other printers. When M600 is called the print pauses and prompts the user to unload, then load new filament. Once the filament is purged to the users satisfaction, they click resume and the print continues.</li>
+  <li>Optional behavior, at any time M600 can be called with "M600 CHANGE=1" to initiate a filament rollover during a print. Additionally, there is a variable in the FILAMENT_VARS macro that if set will have M600 always have this behavior.</li>
+  <li>NOTE: this is not a full implementation of the M600 macro from Marilin, it triggers on the active extruder when used with the default behavior. If care is used when applying it in the slicer then there should be no issues. If you find any, feedback is always welcome.</li>
+</ul>
+
+Added variables in FILAMENT_VARS for length of filament to continue to print after the sensor is triggered. The distance from the extruder to filament sensor is a good start.<br>
+Added a timer variable for how often Klipper will check extruded filament since runout switch triggered. Shorter time, more accurate counting, but may block printing movements. 5 seconds has proved reliable in my testing.<br>
+
 
 # Update for March 17, 2024:
 
