@@ -1,6 +1,6 @@
 # Hardware z adjustment using double tap
 
-This small modification adds hardware adjustable z height adjustment for the T1 carriage.
+This small modification adds hardware adjustable z height adjustment for the T1 carriage. My testing has shown it to be very consistent, even after travelling across hundreds of miles of US interstate.
 
 ## Requirements:
 
@@ -16,12 +16,31 @@ This small modification adds hardware adjustable z height adjustment for the T1 
   <li>1 - M3 heat set insert.</li>
   <li>1 - M3x12 SHCS.</li>
   <li>1 - M3x20 SHCS.</li>
-  <li>Printed parts.</li>
+  <li>Printed parts. ABS / ASA recommended, standard Voron print settings.</li>
+</ul>
+
+## Instructions:
+<ul>
+  <li>Install the heat set into the shuttle piece, from the large side.<br>
+    <img width=200 src="https://github.com/joseph-greiner/tridex_mods/blob/main/hardware_z_adjuster/images/assy_1.png">
+  </li>
+  <li>Screw the M3x20 fully into the housing, and continue rotating it until it rotates without too much resistance. Basically create some threads with the screw and then strip them out.<br>
+    <img width=200 src="https://github.com/joseph-greiner/tridex_mods/blob/main/hardware_z_adjuster/images/assy_2.png">
+  </li>
+  <li>Install the shuttle onto the M3x20 screw. Then push the shuttle / screw assembly through the housing a couple times.<br>
+      The idea behind this is a push fit of the screw into the plastic housing, it will help it not rotate while printing.<br>
+    <img width=200 src="https://github.com/joseph-greiner/tridex_mods/blob/main/hardware_z_adjuster/images/assy_3.png">
+  </li>
+  <li>The shuttle should move back and forth when turning the screw, but the head of the screw should stay seated on the housing.</li>
+  <li>Add the ramp to the assembly then install onto the T1 carriage using the M3x12 in the hole that the Tap switch would mount into.<br>
+      The mounting screw should be secure but not tight enough to bind the adjuster.<br>
+    <img width=200 src="https://github.com/joseph-greiner/tridex_mods/blob/main/hardware_z_adjuster/images/assy_4.png">
+  </li>
+  
 </ul>
 
 ## Images:
-<img width=100 src="https://github.com/joseph-greiner/tridex_mods/blob/main/hardware_z_adjuster/images/z_adjust_cad_0.png">
-<img width=100 src="https://github.com/joseph-greiner/tridex_mods/blob/main/hardware_z_adjuster/images/z_adjust_cad_1.png">
-<img width=100 src="https://github.com/joseph-greiner/tridex_mods/blob/main/hardware_z_adjuster/images/z_adjust_stl.png">
-<img width=100 src="https://github.com/joseph-greiner/tridex_mods/blob/main/hardware_z_adjuster/images/z_adjust_installed_0.png">
-<img width=100 src="https://github.com/joseph-greiner/tridex_mods/blob/main/hardware_z_adjuster/images/z_adjust_installed_1.png">
+<img width=200 src="https://github.com/joseph-greiner/tridex_mods/blob/main/hardware_z_adjuster/images/z_adjust_cad_0.png"><img width=200 src="https://github.com/joseph-greiner/tridex_mods/blob/main/hardware_z_adjuster/images/z_adjust_cad_1.png">
+<img width=200 src="https://github.com/joseph-greiner/tridex_mods/blob/main/hardware_z_adjuster/images/z_adjust_stl.png">
+<img width=200 src="https://github.com/joseph-greiner/tridex_mods/blob/main/hardware_z_adjuster/images/z_adjust_installed_0.jpg">
+<img width=200 src="https://github.com/joseph-greiner/tridex_mods/blob/main/hardware_z_adjuster/images/z_adjust_installed_1.jpg">
