@@ -1,18 +1,19 @@
 # Printer Configuration
 
-These are my current configuration and macros for stock Klipper based IDEX machines. When combined with my slicer configuration, these macros allow full printing capabilities with your printer.
+These are my current configuration and macros for stock Klipper based IDEX machines. When combined with my slicer configuration, these macros allow full printing capabilities with your printer with little to no modifications.
 
 ## Printing modes:
 
 Single tool prints (T0 or T1)<br>
 Dual material or dual color printing with both tool heads.<br>
-Copy and Mirror mode printing with any material selected in the slicer.
+Copy and Mirror mode printing with whatever materials are selected in the slicer.<br>
 
 ## Multiple tool head change modes:
 
-Swap - quickest tool change mode, both tool heads move at the same time. (Ported from Vcore IDEX macros by Helge Keck)<br>
-Classic - original Tridex tool change, one tool head moves at a time.<br>
-Ooze Prevention - if nozzles are cooled down when not actively printing, keeps the tool head in the parking area until printing temperatures is reached
+<b>Swap:</b> Quickest tool change mode, both tool heads move at the same time. (Ported from Vcore IDEX macros by Helge Keck)<br>
+<b>Classic:</b> Original Tridex tool change, one tool head moves at a time.<br>
+<b>Ooze Prevention</b> If nozzles are cooled down when not actively printing, keeps the tool head in the parking area until printing temperatures are reached<br>
+When ooze prevention is checked from within Prusa Slicer, this mode is automatically selected, no changes to your printer configuration needs to be done.<br>
 
 ## Tool head offsets adjustable without restarting Klipper
 
@@ -28,6 +29,11 @@ Macros automatically save the new offsets so they will be kept after Klipper res
 ## Filament runout and rollover support
 
 All config files are fully commented and helps walk you through what needs changed and what does not need changed. If you set your board pins, end stops and probe properly. The macros just work.
+
+# Update for April 23, 2024:
+
+Improved swap tool change macros. Pulled tool head locations from a better place, simplified the math for the tool change.
+Updated comments in idex_variables.cfg 
 
 # Update for March 27, 2024:
 
