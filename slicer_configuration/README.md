@@ -1,5 +1,8 @@
 Here is the configuration I use for Prusa Slicer 2.7
 
+# Update for June 16, 2024<br>
+Added Orca Slicer profiles for Primary, Copy, and Mirror modes. Hopefully the filament profiles are included. These are basic settings and get me good prints on my machine while using my printer configuration. Useable as-is or as a base for modifying for your machine.
+
 # Update for April 23, 2024<br>
 
 Corrected copy and mirror mode start g-code to align with new print_start macro. Will no longer get errors when using these modes.<br>
