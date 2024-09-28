@@ -21,7 +21,7 @@ Added mounts for PG7 glands to the left and right drive frames.
 
 ## [Filament Runout Switch and Umbilical Management](https://github.com/joseph-greiner/tridex_mods/tree/main/filament_runout_umbilical_management)
 
-Filament runout sswitches that mount to the upper rear frame, combined with some reverse bowden and umbilical management clips. An easy way to tame your tool head wiring and filament.
+Filament runout switches that mount to the upper rear frame, combined with some reverse bowden and umbilical management clips. An easy way to tame your tool head wiring and filament.
 
 ## [Front Skirts](https://github.com/joseph-greiner/tridex_mods/tree/main/front_skirts)
 
