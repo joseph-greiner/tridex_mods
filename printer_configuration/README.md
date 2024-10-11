@@ -51,6 +51,11 @@ Added some support for M600 with 2 modes:
 Added variables in FILAMENT_VARS for length of filament to continue to print after the sensor is triggered. The distance from the extruder to filament sensor is a good start.<br>
 Added a timer variable for how often Klipper will check extruded filament since runout switch triggered. Shorter time, more accurate counting, but may block printing movements. 5 seconds has proved reliable in my testing.<br>
 
+# Update for October 10, 2024:
+FIXED - Move out of range homing if T1 left active and Y offset was negative. Updated Klicky and IDEX homing overrides.
+FIXED - Commented out chamber thermistor by request... No more ADC out of range errors when you don't have one installed.
+FIXED - Added config_reference.md file.
+
 
 # Update for March 17, 2024:
 
