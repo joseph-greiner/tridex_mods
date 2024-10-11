@@ -31,13 +31,13 @@ Macros automatically save the new offsets so they will be kept after Klipper res
 All config files are fully commented and helps walk you through what needs changed and what does not need changed. If you set your board pins, end stops and probe properly. The macros just work.
 
 # Update for October 10, 2024:
-FIXED - Move out of range homing if T1 left active and Y offset was negative. Updated Klicky and IDEX homing overrides.
-FIXED - Commented out chamber thermistor by request... No more ADC out of range errors when you don't have one installed.
-FIXED - Added config_reference.md file.
+FIXED - Move out of range homing if T1 left active and Y offset was negative. Updated Klicky and IDEX homing overrides.<br>
+FIXED - Commented out chamber thermistor by request... No more ADC out of range errors when you don't have one installed.<br>
+FIXED - Added config_reference.md file.<br>
 
 # Update for April 23, 2024:
 
-Improved swap tool change macros. Pulled tool head locations from a better place, simplified the math for the tool change.
+Improved swap tool change macros. Pulled tool head locations from a better place, simplified the math for the tool change.<br>
 Updated comments in idex_variables.cfg 
 
 # Update for March 27, 2024:
