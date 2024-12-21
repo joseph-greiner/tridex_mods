@@ -1,4 +1,11 @@
-Here is the configuration I use for Prusa Slicer 2.7 and Orca Slicer 2.0
+Here is the configuration I use for Prusa Slicer and Orca Slicer
+
+# Update for December 20, 2024
+Updated the slicer profiles to current releases.<br>
+<ul>
+    <li>Prusa Slicer: Removed custom gcode on tool change. Prusa Slicer no longer supports wipe tower location placeholders as of version 2.9.0 Alpha.</li>
+    <li>Orca Slicer: Updated hacked single tool multimaterial printer to multiple tools. I will add Orca version numbers on the zip file from now on.</li>
+</ul>
 
 # Update for June 16, 2024<br>
 Added Orca Slicer profiles for Primary, Copy, and Mirror modes. Hopefully the filament profiles are included. These are basic settings and get me good prints on my machine while using my printer configuration. Useable as-is or as a base for modifying for your machine.<br>
